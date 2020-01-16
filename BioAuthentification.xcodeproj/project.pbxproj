@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9383F23323D0C1E700C0E5CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F23223D0C1E700C0E5CE /* AppDelegate.swift */; };
+		9383F23523D0C1E700C0E5CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F23423D0C1E700C0E5CE /* SceneDelegate.swift */; };
+		9383F23723D0C1E700C0E5CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F23623D0C1E700C0E5CE /* ViewController.swift */; };
+		9383F23A23D0C1E700C0E5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9383F23823D0C1E700C0E5CE /* Main.storyboard */; };
+		9383F23C23D0C1E900C0E5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9383F23B23D0C1E900C0E5CE /* Assets.xcassets */; };
+		9383F23F23D0C1E900C0E5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9383F23D23D0C1E900C0E5CE /* LaunchScreen.storyboard */; };
+		9383F24A23D0C1E900C0E5CE /* BioAuthentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F24923D0C1E900C0E5CE /* BioAuthentificationTests.swift */; };
+		9383F25523D0C1E900C0E5CE /* BioAuthentificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F25423D0C1E900C0E5CE /* BioAuthentificationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9383F24623D0C1E900C0E5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9383F22723D0C1E700C0E5CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9383F22E23D0C1E700C0E5CE;
+			remoteInfo = BioAuthentification;
+		};
+		9383F25123D0C1E900C0E5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9383F22723D0C1E700C0E5CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9383F22E23D0C1E700C0E5CE;
+			remoteInfo = BioAuthentification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9383F22F23D0C1E700C0E5CE /* BioAuthentification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuthentification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9383F23223D0C1E700C0E5CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9383F23423D0C1E700C0E5CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9383F23623D0C1E700C0E5CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9383F23923D0C1E700C0E5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9383F23B23D0C1E900C0E5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9383F23E23D0C1E900C0E5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9383F24023D0C1E900C0E5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9383F24523D0C1E900C0E5CE /* BioAuthentificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthentificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9383F24923D0C1E900C0E5CE /* BioAuthentificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthentificationTests.swift; sourceTree = "<group>"; };
+		9383F24B23D0C1E900C0E5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9383F25023D0C1E900C0E5CE /* BioAuthentificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthentificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9383F25423D0C1E900C0E5CE /* BioAuthentificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthentificationUITests.swift; sourceTree = "<group>"; };
+		9383F25623D0C1E900C0E5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9383F22C23D0C1E700C0E5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9383F24223D0C1E900C0E5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9383F24D23D0C1E900C0E5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9383F22623D0C1E700C0E5CE = {
+			isa = PBXGroup;
+			children = (
+				9383F23123D0C1E700C0E5CE /* BioAuthentification */,
+				9383F24823D0C1E900C0E5CE /* BioAuthentificationTests */,
+				9383F25323D0C1E900C0E5CE /* BioAuthentificationUITests */,
+				9383F23023D0C1E700C0E5CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9383F23023D0C1E700C0E5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9383F22F23D0C1E700C0E5CE /* BioAuthentification.app */,
+				9383F24523D0C1E900C0E5CE /* BioAuthentificationTests.xctest */,
+				9383F25023D0C1E900C0E5CE /* BioAuthentificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9383F23123D0C1E700C0E5CE /* BioAuthentification */ = {
+			isa = PBXGroup;
+			children = (
+				9383F23223D0C1E700C0E5CE /* AppDelegate.swift */,
+				9383F23423D0C1E700C0E5CE /* SceneDelegate.swift */,
+				9383F23623D0C1E700C0E5CE /* ViewController.swift */,
+				9383F23823D0C1E700C0E5CE /* Main.storyboard */,
+				9383F23B23D0C1E900C0E5CE /* Assets.xcassets */,
+				9383F23D23D0C1E900C0E5CE /* LaunchScreen.storyboard */,
+				9383F24023D0C1E900C0E5CE /* Info.plist */,
+			);
+			path = BioAuthentification;
+			sourceTree = "<group>";
+		};
+		9383F24823D0C1E900C0E5CE /* BioAuthentificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9383F24923D0C1E900C0E5CE /* BioAuthentificationTests.swift */,
+				9383F24B23D0C1E900C0E5CE /* Info.plist */,
+			);
+			path = BioAuthentificationTests;
+			sourceTree = "<group>";
+		};
+		9383F25323D0C1E900C0E5CE /* BioAuthentificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9383F25423D0C1E900C0E5CE /* BioAuthentificationUITests.swift */,
+				9383F25623D0C1E900C0E5CE /* Info.plist */,
+			);
+			path = BioAuthentificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9383F22E23D0C1E700C0E5CE /* BioAuthentification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9383F25923D0C1E900C0E5CE /* Build configuration list for PBXNativeTarget "BioAuthentification" */;
+			buildPhases = (
+				9383F22B23D0C1E700C0E5CE /* Sources */,
+				9383F22C23D0C1E700C0E5CE /* Frameworks */,
+				9383F22D23D0C1E700C0E5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioAuthentification;
+			productName = BioAuthentification;
+			productReference = 9383F22F23D0C1E700C0E5CE /* BioAuthentification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9383F24423D0C1E900C0E5CE /* BioAuthentificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9383F25C23D0C1E900C0E5CE /* Build configuration list for PBXNativeTarget "BioAuthentificationTests" */;
+			buildPhases = (
+				9383F24123D0C1E900C0E5CE /* Sources */,
+				9383F24223D0C1E900C0E5CE /* Frameworks */,
+				9383F24323D0C1E900C0E5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9383F24723D0C1E900C0E5CE /* PBXTargetDependency */,
+			);
+			name = BioAuthentificationTests;
+			productName = BioAuthentificationTests;
+			productReference = 9383F24523D0C1E900C0E5CE /* BioAuthentificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9383F24F23D0C1E900C0E5CE /* BioAuthentificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9383F25F23D0C1E900C0E5CE /* Build configuration list for PBXNativeTarget "BioAuthentificationUITests" */;
+			buildPhases = (
+				9383F24C23D0C1E900C0E5CE /* Sources */,
+				9383F24D23D0C1E900C0E5CE /* Frameworks */,
+				9383F24E23D0C1E900C0E5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9383F25223D0C1E900C0E5CE /* PBXTargetDependency */,
+			);
+			name = BioAuthentificationUITests;
+			productName = BioAuthentificationUITests;
+			productReference = 9383F25023D0C1E900C0E5CE /* BioAuthentificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9383F22723D0C1E700C0E5CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Guillaume Lauzier";
+				TargetAttributes = {
+					9383F22E23D0C1E700C0E5CE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					9383F24423D0C1E900C0E5CE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9383F22E23D0C1E700C0E5CE;
+					};
+					9383F24F23D0C1E900C0E5CE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 9383F22E23D0C1E700C0E5CE;
+					};
+				};
+			};
+			buildConfigurationList = 9383F22A23D0C1E700C0E5CE /* Build configuration list for PBXProject "BioAuthentification" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9383F22623D0C1E700C0E5CE;
+			productRefGroup = 9383F23023D0C1E700C0E5CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9383F22E23D0C1E700C0E5CE /* BioAuthentification */,
+				9383F24423D0C1E900C0E5CE /* BioAuthentificationTests */,
+				9383F24F23D0C1E900C0E5CE /* BioAuthentificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9383F22D23D0C1E700C0E5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9383F23F23D0C1E900C0E5CE /* LaunchScreen.storyboard in Resources */,
+				9383F23C23D0C1E900C0E5CE /* Assets.xcassets in Resources */,
+				9383F23A23D0C1E700C0E5CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9383F24323D0C1E900C0E5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9383F24E23D0C1E900C0E5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9383F22B23D0C1E700C0E5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9383F23723D0C1E700C0E5CE /* ViewController.swift in Sources */,
+				9383F23323D0C1E700C0E5CE /* AppDelegate.swift in Sources */,
+				9383F23523D0C1E700C0E5CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9383F24123D0C1E900C0E5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9383F24A23D0C1E900C0E5CE /* BioAuthentificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9383F24C23D0C1E900C0E5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9383F25523D0C1E900C0E5CE /* BioAuthentificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9383F24723D0C1E900C0E5CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9383F22E23D0C1E700C0E5CE /* BioAuthentification */;
+			targetProxy = 9383F24623D0C1E900C0E5CE /* PBXContainerItemProxy */;
+		};
+		9383F25223D0C1E900C0E5CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9383F22E23D0C1E700C0E5CE /* BioAuthentification */;
+			targetProxy = 9383F25123D0C1E900C0E5CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9383F23823D0C1E700C0E5CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9383F23923D0C1E700C0E5CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9383F23D23D0C1E900C0E5CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9383F23E23D0C1E900C0E5CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9383F25723D0C1E900C0E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9383F25823D0C1E900C0E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9383F25A23D0C1E900C0E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KPN2ZW4HG;
+				INFOPLIST_FILE = BioAuthentification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumelauzier.BioAuthentification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9383F25B23D0C1E900C0E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KPN2ZW4HG;
+				INFOPLIST_FILE = BioAuthentification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumelauzier.BioAuthentification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9383F25D23D0C1E900C0E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KPN2ZW4HG;
+				INFOPLIST_FILE = BioAuthentificationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumelauzier.BioAuthentificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAuthentification.app/BioAuthentification";
+			};
+			name = Debug;
+		};
+		9383F25E23D0C1E900C0E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KPN2ZW4HG;
+				INFOPLIST_FILE = BioAuthentificationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumelauzier.BioAuthentificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAuthentification.app/BioAuthentification";
+			};
+			name = Release;
+		};
+		9383F26023D0C1E900C0E5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KPN2ZW4HG;
+				INFOPLIST_FILE = BioAuthentificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumelauzier.BioAuthentificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioAuthentification;
+			};
+			name = Debug;
+		};
+		9383F26123D0C1E900C0E5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KPN2ZW4HG;
+				INFOPLIST_FILE = BioAuthentificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guillaumelauzier.BioAuthentificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioAuthentification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9383F22A23D0C1E700C0E5CE /* Build configuration list for PBXProject "BioAuthentification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9383F25723D0C1E900C0E5CE /* Debug */,
+				9383F25823D0C1E900C0E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9383F25923D0C1E900C0E5CE /* Build configuration list for PBXNativeTarget "BioAuthentification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9383F25A23D0C1E900C0E5CE /* Debug */,
+				9383F25B23D0C1E900C0E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9383F25C23D0C1E900C0E5CE /* Build configuration list for PBXNativeTarget "BioAuthentificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9383F25D23D0C1E900C0E5CE /* Debug */,
+				9383F25E23D0C1E900C0E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9383F25F23D0C1E900C0E5CE /* Build configuration list for PBXNativeTarget "BioAuthentificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9383F26023D0C1E900C0E5CE /* Debug */,
+				9383F26123D0C1E900C0E5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9383F22723D0C1E700C0E5CE /* Project object */;
+}
