@@ -15,6 +15,7 @@
 		9383F23F23D0C1E900C0E5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9383F23D23D0C1E900C0E5CE /* LaunchScreen.storyboard */; };
 		9383F24A23D0C1E900C0E5CE /* BioAuthentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F24923D0C1E900C0E5CE /* BioAuthentificationTests.swift */; };
 		9383F25523D0C1E900C0E5CE /* BioAuthentificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383F25423D0C1E900C0E5CE /* BioAuthentificationUITests.swift */; };
+		9383F26423D0C1FC00C0E5CE /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9383F26323D0C1FC00C0E5CE /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9383F25023D0C1E900C0E5CE /* BioAuthentificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthentificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9383F25423D0C1E900C0E5CE /* BioAuthentificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthentificationUITests.swift; sourceTree = "<group>"; };
 		9383F25623D0C1E900C0E5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9383F26323D0C1FC00C0E5CE /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9383F26423D0C1FC00C0E5CE /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				9383F24823D0C1E900C0E5CE /* BioAuthentificationTests */,
 				9383F25323D0C1E900C0E5CE /* BioAuthentificationUITests */,
 				9383F23023D0C1E700C0E5CE /* Products */,
+				9383F26223D0C1FC00C0E5CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				9383F25623D0C1E900C0E5CE /* Info.plist */,
 			);
 			path = BioAuthentificationUITests;
+			sourceTree = "<group>";
+		};
+		9383F26223D0C1FC00C0E5CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9383F26323D0C1FC00C0E5CE /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
